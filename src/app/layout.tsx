@@ -9,7 +9,7 @@ const geistSans = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "TechTrash",
+  title: "GreenTrash",
 };
 
 export default function RootLayout({
