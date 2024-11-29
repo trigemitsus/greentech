@@ -1,4 +1,4 @@
-import NavHeader from "@/components/header";
+import NavHeader from "@/components/nav-header";
 import { Trophy } from "lucide-react";
 
 export default function Home() {
