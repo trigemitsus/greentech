@@ -1,18 +1,10 @@
-import { ArrowLeft, ChevronRight, MapPin, Map } from "lucide-react";
+import Header from "@/components/ui/header";
+import {MapPin } from "lucide-react";
 
 export default function MapPage() {
     return (
         <main>
-            <div className="flex items-center justify-center gap-4">
-                <button type="button" className="rounded-full p-3 border border-gray">
-                    <ArrowLeft />
-                </button>
-
-                <div className="flex items-center justify-center gap-2">
-                    <Map />
-                    <h1>Pontos de Coleta</h1>
-                </div>
-            </div>
+            <Header />
 
             <div className="flex gap-2 items-center justify-center">
                 <MapPin width={16} height={16} />
