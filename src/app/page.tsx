@@ -1,7 +1,7 @@
 import NavHeader from "@/components/nav-header";
 import { Trophy } from "lucide-react";
 
-export default function Home() {
+export default function Ranking() {
   return (
     <NavHeader
       label="Placar nacional"
